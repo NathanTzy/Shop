@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVTZY -->
+    <nav class="bg-[white] border-gray-200x dark:bg-black">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <p class="text-3xl dark:text-white cursor-pointer">Le<span
+                    class="self-center font-bold whitespace-nowrap text-yellow-400 text-4xl">
+                    DRIVE</span></p>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto font-Poppins" id="navbar-default" style="font-size: 1.3rem;">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black">
+                    <li>
+                        <a href="#mok"
+                            class="block py-2 mt-2 px-3 text-gray-900 rounded dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yel md:p-0 hover:text-yellow-400 dark:hover:text-yellow-400">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#provide"
+                            class="block py-2 mt-2 px-3 text-gray-900 rounded dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yel md:p-0 hover:text-yellow-400 dark:hover:text-yellow-400">Provides</a>
+                    </li>
+                    <li>
+                        <a href="#p"
+                            class="block py-2 mt-2 mb-2 px-3 text-gray-900 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yel md:p-0 hover:text-yellow-400 dark:hover:text-yellow-400">Featured</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVTZY -->
+
+    <!-- JUMBOTRON -->
+    <section class="bg-center bg-no-repeat bg-gray-700 bg-blend-multiply font-Poppins bg-fixed"
+        style="background-image: url(https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600); background-size: cover;">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+            <h1 class="mb-4 text-4xl font-medium tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                <span class="text-yellow-400 font-bold">DRIVE</span> for life, life for <span
+                    class="text-yellow-400 font-bold">DRIVE</span></h1>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Lorem ipsum dolor, sit
+                amet
+                consectetur adipisicing elit. Illum dolore sed totam quam itaque nihil reiciendis omnis fugiat
+                numquam
+                quo! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos.
+            </p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <a href="shop.html"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300 dark:focus:ring-blue-900">
+                    <p class=" me-2">Find Ur Type</p>
+                    <svg class="w-3.5 h-3.5  rtl:rotate-180 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- END JUMBOTRON -->
+
+    <!-- Content 1 -->
+    <div class="grid grid-cols-3 gap-11 px-10 mt-28 font-Poppins" id="mok">
+        <div
+            class="py-8 rounded-lg shadow-2xl shadow-gray-700 sm:col-span-3 md:col-span-3 lg:col-span-1 dark:shadow-lg dark:shadow-white dark:text-white">
+            <p class="text-center"><i class="fa-solid fa-dollar text-3xl bg-yellow-300 rounded-full p-4"></i></p>
+            <h3 class="text-center">Cars sold</h3>
+            <p class="text-center mt-5 font-medium">Over</p>
+            <h2 class="text-center text-4xl font-bold">11800 Units</h2>
+        </div>
+        <div
+            class="py-8 rounded-lg shadow-2xl shadow-gray-700  sm:col-span-3 md:col-span-3 lg:col-span-1 dark:shadow-lg dark:shadow-white dark:text-white">
+            <p class="text-center"><i class="fa-solid fa-pen text-3xl bg-yellow-300 rounded-full p-4"></i></p>
+            <h3 class="text-center">Established</h3>
+            <p class="text-center mt-5 font-medium">In</p>
+            <h2 class="text-center text-4xl font-bold">2015</h2>
+        </div>
+        <div
+            class="py-8 rounded-lg shadow-2xl shadow-gray-700  sm:col-span-3 md:col-span-3 lg:col-span-1 dark:shadow-lg dark:shadow-white dark:text-white">
+            <p class="text-center"><i class="fa-solid fa-star text-3xl bg-yellow-300 rounded-full p-4"></i>
+            </p>
+            <h3 class="text-center">Providing</h3>
+            <p class="text-center mt-5 font-medium">Over</p>
+            <h2 class="text-center text-4xl font-bold">5 Luxury brands</h2>
+            <p class="text-center">Cars</p>
+        </div>
+    </div>
+
+
+    <!-- Content 2 -->
+    <h1 class="font-bold text-5xl font-Poppins text-center mt-48">Testimony</h1>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 mx-10 my-16">
+        <div class="bg-transparent xl:mt-28 lg:-mt-5 lg:order-1 md:order-2 sm:order-2">
+            <div class="p-5">
+                <p class="font-Poppins text-center">
+                    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, porro facilis perspiciatis,
+                    repudiandae incidunt beatae non debitis inventore quos doloribus nihil sed odit atque, molestias id.
+                    Explicabo exercitationem sit assumenda consectetur iste voluptatum voluptatibus, deleniti sint iure
+                    maiores vitae magni obcaecati minus? Quae id, provident autem sint consequuntur quidem hic beatae
+                    error
+                    nostrum? Doloribus dolore tempore nobis enim vero aliquam!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maxime error tempore rerum ea.
+                    Amet,
+                    cumque sunt officiis dolore voluptatem incidunt ullam esse beatae, labore ab itaque aut? Aspernatur,
+                    nobis. "
+                </p>
+                <p class="font-Poppins mt-5 text-end text-2xl font-bold">- Fuad Sayuti -</p>
+                <p class="font-Poppins text-end text-2xl font-light">Ceo</p>
+            </div>
+        </div>
+
+        <div class="mx-10 lg:order-2 md:order-1 sm:order-1">
+            <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" class="rounded-xl">
+        </div>
+    </div>
+
+
+    <!-- Content 3 -->
+    <section class="bg-white  py-24 px-4 lg:px-16 mt-32" id="provide">
+        <div class="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px] nanum2">
+            <h1 class="text-center text-5xl pb-12 font-Poppins font-medium">We provide you the <span
+                    class="text-yellow-400 font-bold">BEST</span></h1>
+            <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-28 lg:gap-y-16 mt-13">
+
+                <!-- Card 1 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa-solid fa-handshake"></i>
+                            </div>
+                        </div>
+                        <div class="p-6   z-10 w-full   ">
+                            <p
+                                class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased">
+                                Automotive
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa fa-car"></i>
+                            </div>
+                        </div>
+                        <div class="p-6   z-10 w-full   ">
+                            <p
+                                class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased">
+                                Automotive
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa fa-headphones"></i>
+                            </div>
+                        </div>
+                        <div class="p-6   z-10 w-full   ">
+                            <p
+                                class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased">
+                                Automotive
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div class="p-6   z-10 w-full   ">
+                                <p
+                                    class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal  antialiased">
+                                    Automotive
+                                </p>
+                            </div>
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa fa-hand-holding-dollar"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div class="p-6 z-10 w-full ">
+                                <p
+                                    class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased">
+                                    Automotive
+                                </p>
+                            </div>
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa-solid fa-medal"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:col-span-1 sm:col-span-1">
+                    <a href="#" class="block">
+                        <div class="h-28">
+                            <div class="p-6 z-10 w-full ">
+                                <p
+                                    class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased">
+                                    Automotive
+                                </p>
+                            </div>
+                            <div
+                                class="flex absolute -top-20 lg:top-[-10%] left-[5%] z-40  group-hover:top-[40%] group-hover:opacity-[0.9]  duration-300 w-[90%] h-48 bg-yellow-500 rounded-xl justify-items-center align-middle">
+                                <i class="text-9xl mt-7 mx-auto text-white fa-solid fa-gear"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured -->
+    <h1 class="text-center text-5xl font-bold my-44">Featured <span class="text-yellow-400 font-bold">CARS</span></h1>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1" id="p">
+
+        <!-- Card 1 -->
+        <div class="max-w-xl mx-auto border-y-8 rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 p-5">
+            <div href="#">
+                <img class="rounded-t-lg" src="img/Desain tanpa judul (12).png" alt="" />
+            </div>
+            <div class="p-5">
+                <div class="flex flex-col">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-Poppins">Range
+                        rover 2022
+                    </h5>
+                    <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" xml:space="preserve"
+                        width="100px" height="100px">
+                        <title>makes</title>
+                        <path d="M50,23.3c-27.5,0-49.8,11.1-49.8,24.8S22.5,72.9,50,72.9s49.8-11.1,49.8-24.8S77.5,23.3,50,23.3z M50,70.8
+	c-26.3,0-47.5-10.1-47.5-22.7S23.7,25.4,50,25.4s47.5,10.2,47.5,22.7S76.3,70.8,50,70.8L50,70.8z" />
+                        <path d="M50,26.3c-25.8,0-46.7,9.8-46.7,21.8S24.2,69.9,50,69.9s46.7-9.8,46.7-21.8S75.8,26.3,50,26.3z M69.8,43.1l4.8-2.1h-4.2
+	l1.1-3.1h8.1L78.6,41l-9.1,3.1L69.8,43.1z M63.2,33.1c1.1,0,2.3,0.3,3.3,0.8c0.9,0.6,1.6,1.6,1.7,2.7c0.1,1.5-0.1,3-0.7,4.4
+	c-0.6,1.4-1.6,2.6-2.8,3.5c-1.1,0.8-2.4,1.2-3.8,1.2h-5.8L59,34.3c0.1-0.4,0.1-0.8,0-1.3L63.2,33.1L63.2,33.1z M46.6,34.4
+	c0.2-0.4,0.2-0.9,0-1.3h3.8l1.1,5.7l2-5.7h3.6l-4.6,12.6H49l-1-5.5l-2.2,5.5h-3.2L46.6,34.4z M37.3,33.1h3.9l0.7,12.6h-3.6l-0.2-1.6
+	h-3.6l-1.2,1.6h-3.6l7.4-11.4C37.3,34,37.4,33.5,37.3,33.1z M25.1,34.4c0.1-0.4,0.1-0.9,0-1.3h4.3l-3.3,9.8h3.7l-1.2,2.9h-7.5
+	L25.1,34.4z M24.6,52.7l-1.2,3.1h-8.2l1.2-3.1l9.1-3.1l-0.4,1l-4.8,2L24.6,52.7L24.6,52.7z M38,53.3c-0.3,0.8-0.8,1.4-1.5,1.9
+	c-0.6,0.5-1.4,0.8-2.2,0.9l2.5,4.7h-3.7l-2.4-4.5l-1.6,4.5h-3.7l4.1-11.4c0.2-0.4,0.2-0.9,0-1.3h5.1c0.8,0,1.6,0.2,2.4,0.6
+	c0.5,0.2,0.9,0.6,1.2,1.1C38.6,51,38.6,52.3,38,53.3z M49.1,58.1c-0.8,1-1.8,1.8-3,2.4C45,61,43.8,61.1,42.6,61
+	c-1.8-0.4-3.2-1.8-3.6-3.6c-0.3-1.3-0.3-2.6,0.1-3.8c0.8-2.5,2.7-4.5,5.1-5.4c1.5-0.5,3.1-0.2,4.4,0.6c1,0.7,1.7,1.7,1.9,2.9
+	C51.1,53.9,50.6,56.3,49.1,58.1L49.1,58.1z M52.1,60.9l-0.2-11.4c0-0.4-0.1-0.9-0.3-1.3h3.9v6.8l4.6-6.8h4.2L54.9,61L52.1,60.9
+	L52.1,60.9z M68.7,60.9h-8l3.9-11.1c0.2-0.5,0.2-1.1,0-1.6h8.5l-0.9,2.8H68l-0.7,2.2h3.2l-1,2.8h-3.1c-0.3,0.7-0.5,1.4-0.7,2.2h4.2
+	L68.7,60.9z M83,53.3c-0.3,0.8-0.8,1.5-1.5,1.9c-0.6,0.5-1.4,0.8-2.2,0.9l2.5,4.7h-3.7l-2.4-4.5l-1.6,4.5h-3.7l4.1-11.4
+	c0.2-0.4,0.2-0.9,0-1.3h5.1c0.8,0,1.6,0.2,2.3,0.6c0.5,0.2,0.9,0.6,1.2,1.1C83.5,51,83.5,52.2,83,53.3L83,53.3z" />
+                        <path d="M61.5,42.6c0.4-0.2,0.7-0.4,1-0.7c0.5-0.5,0.9-1.1,1.1-1.8c0.5-1.3,1.2-3.8-0.4-3.8h-0.9L60,42.8h0.9
+	C61.1,42.8,61.3,42.7,61.5,42.6z" />
+                        <path d="M78.4,51.3h-0.8l-0.7,2.1h1C79.2,53.4,80.5,51.3,78.4,51.3z" />
+                        <path d="M33.4,51.3h-0.8l-0.7,2.1h1C34.4,53.4,35.5,51.3,33.4,51.3z" />
+                        <polygon points="38.1,41.3 37.9,38.6 36.3,41.3 " />
+                        <path d="M44.1,51.9c-0.8,0.9-1.3,2.1-1.4,3.3c-0.1,0.7,0,1.4,0.2,2c0.3,0.7,1.2,1,1.9,0.6c0.2-0.1,0.4-0.2,0.5-0.4
+	c1.2-1.3,1.8-3.1,1.5-4.9c-0.1-0.8-0.9-1.4-1.7-1.2C44.6,51.4,44.3,51.6,44.1,51.9z" />
+                    </svg>
+                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Blanditiis ea obcaecati aliquam quod suscipit molestiae eligendi perferendis
+                    necessitatibus culpa. Facilis!</p>
+                <a href="#"
+                    class="float-end inline-flex items-center px-3 py-2 text-xl font-medium text-center text-white bg-yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Buy now
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 pt-1" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="max-w-xl mx-auto border-y-8 rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 p-5">
+            <div href="#">
+                <img class="rounded-t-lg" src="img/Desain tanpa judul (12).png" alt="" />
+            </div>
+            <div class="p-5">
+                <div class="flex flex-col">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-Poppins">Range
+                        rover 2022
+                    </h5>
+                    <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" xml:space="preserve"
+                        width="100px" height="100px">
+                        <title>makes</title>
+                        <path d="M50,23.3c-27.5,0-49.8,11.1-49.8,24.8S22.5,72.9,50,72.9s49.8-11.1,49.8-24.8S77.5,23.3,50,23.3z M50,70.8
+	c-26.3,0-47.5-10.1-47.5-22.7S23.7,25.4,50,25.4s47.5,10.2,47.5,22.7S76.3,70.8,50,70.8L50,70.8z" />
+                        <path d="M50,26.3c-25.8,0-46.7,9.8-46.7,21.8S24.2,69.9,50,69.9s46.7-9.8,46.7-21.8S75.8,26.3,50,26.3z M69.8,43.1l4.8-2.1h-4.2
+	l1.1-3.1h8.1L78.6,41l-9.1,3.1L69.8,43.1z M63.2,33.1c1.1,0,2.3,0.3,3.3,0.8c0.9,0.6,1.6,1.6,1.7,2.7c0.1,1.5-0.1,3-0.7,4.4
+	c-0.6,1.4-1.6,2.6-2.8,3.5c-1.1,0.8-2.4,1.2-3.8,1.2h-5.8L59,34.3c0.1-0.4,0.1-0.8,0-1.3L63.2,33.1L63.2,33.1z M46.6,34.4
+	c0.2-0.4,0.2-0.9,0-1.3h3.8l1.1,5.7l2-5.7h3.6l-4.6,12.6H49l-1-5.5l-2.2,5.5h-3.2L46.6,34.4z M37.3,33.1h3.9l0.7,12.6h-3.6l-0.2-1.6
+	h-3.6l-1.2,1.6h-3.6l7.4-11.4C37.3,34,37.4,33.5,37.3,33.1z M25.1,34.4c0.1-0.4,0.1-0.9,0-1.3h4.3l-3.3,9.8h3.7l-1.2,2.9h-7.5
+	L25.1,34.4z M24.6,52.7l-1.2,3.1h-8.2l1.2-3.1l9.1-3.1l-0.4,1l-4.8,2L24.6,52.7L24.6,52.7z M38,53.3c-0.3,0.8-0.8,1.4-1.5,1.9
+	c-0.6,0.5-1.4,0.8-2.2,0.9l2.5,4.7h-3.7l-2.4-4.5l-1.6,4.5h-3.7l4.1-11.4c0.2-0.4,0.2-0.9,0-1.3h5.1c0.8,0,1.6,0.2,2.4,0.6
+	c0.5,0.2,0.9,0.6,1.2,1.1C38.6,51,38.6,52.3,38,53.3z M49.1,58.1c-0.8,1-1.8,1.8-3,2.4C45,61,43.8,61.1,42.6,61
+	c-1.8-0.4-3.2-1.8-3.6-3.6c-0.3-1.3-0.3-2.6,0.1-3.8c0.8-2.5,2.7-4.5,5.1-5.4c1.5-0.5,3.1-0.2,4.4,0.6c1,0.7,1.7,1.7,1.9,2.9
+	C51.1,53.9,50.6,56.3,49.1,58.1L49.1,58.1z M52.1,60.9l-0.2-11.4c0-0.4-0.1-0.9-0.3-1.3h3.9v6.8l4.6-6.8h4.2L54.9,61L52.1,60.9
+	L52.1,60.9z M68.7,60.9h-8l3.9-11.1c0.2-0.5,0.2-1.1,0-1.6h8.5l-0.9,2.8H68l-0.7,2.2h3.2l-1,2.8h-3.1c-0.3,0.7-0.5,1.4-0.7,2.2h4.2
+	L68.7,60.9z M83,53.3c-0.3,0.8-0.8,1.5-1.5,1.9c-0.6,0.5-1.4,0.8-2.2,0.9l2.5,4.7h-3.7l-2.4-4.5l-1.6,4.5h-3.7l4.1-11.4
+	c0.2-0.4,0.2-0.9,0-1.3h5.1c0.8,0,1.6,0.2,2.3,0.6c0.5,0.2,0.9,0.6,1.2,1.1C83.5,51,83.5,52.2,83,53.3L83,53.3z" />
+                        <path d="M61.5,42.6c0.4-0.2,0.7-0.4,1-0.7c0.5-0.5,0.9-1.1,1.1-1.8c0.5-1.3,1.2-3.8-0.4-3.8h-0.9L60,42.8h0.9
+	C61.1,42.8,61.3,42.7,61.5,42.6z" />
+                        <path d="M78.4,51.3h-0.8l-0.7,2.1h1C79.2,53.4,80.5,51.3,78.4,51.3z" />
+                        <path d="M33.4,51.3h-0.8l-0.7,2.1h1C34.4,53.4,35.5,51.3,33.4,51.3z" />
+                        <polygon points="38.1,41.3 37.9,38.6 36.3,41.3 " />
+                        <path d="M44.1,51.9c-0.8,0.9-1.3,2.1-1.4,3.3c-0.1,0.7,0,1.4,0.2,2c0.3,0.7,1.2,1,1.9,0.6c0.2-0.1,0.4-0.2,0.5-0.4
+	c1.2-1.3,1.8-3.1,1.5-4.9c-0.1-0.8-0.9-1.4-1.7-1.2C44.6,51.4,44.3,51.6,44.1,51.9z" />
+                    </svg>
+                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Blanditiis ea obcaecati aliquam quod suscipit molestiae eligendi perferendis
+                    necessitatibus culpa. Facilis!</p>
+                <a href="#"
+                    class="float-end inline-flex items-center px-3 py-2 text-xl font-medium text-center text-white bg-yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Buy now
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 pt-1" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTERTZY -->
+    <footer class="bg-[white] rounded-lg shadow dark:bg-black font-Poppins mt-24">
+        <div class="w-full px-4 py-8 mx-auto max-w-screen-xl">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <a href="#" class="mb-4">
+                    <p class="font-bold text-6xl text-yellow-400 sm:text-center" id="moof">DRIVE</p>
+                    <p class="text-center sm:text-center md:text-center lg:text-center dark:text-white">Enterprise
+                    </p>
+                </a>
+                <ul class="flex flex-wrap justify-center md:justify-end gap-6 text-sm font-medium text-gray-500 dark:text-gray-400"
+                    id="coi">
+                    <li>
+                        <a href="#" class="hover:underline dark:text-white">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline dark:text-white">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline dark:text-white">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline dark:text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-500 dark:border-white lg:my-8" />
+            <span class="block text-sm text-center text-black dark:text-white">© 2023 <a href="#"
+                    class="hover:underline text-yellow-400 font-semibold">DRIVE </a>Enterprise. All Rights
+                Reserved.</span>
+        </div>
+    </footer>
+    <!-- END FOOTERTZY -->
+    <!-- FA & JS -->
+    <script src="https://kit.fontawesome.com/e81773e2de.js" crossorigin="anonymous"></script>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
